@@ -1,0 +1,207 @@
+/*==========================================
+--. Footer and Call to ACtion Style CSS
+============================================*/
+
+.call-action{
+  width: 192px
+}
+
+#AmcorLink {
+  color:rgb(47, 70, 199);
+}
+
+.row {
+  padding: 20px 0;
+}
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  // color: #818286;
+  font-family: corundum-text;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: .01em;
+  line-height: 1.67em;
+  text-transform: none;
+}
+
+h2 {
+  font-family: acumin-pro-condensed;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: .02em;
+  line-height: 1em;
+  text-transform: none;
+  text-rendering: optimizeLegibility;
+}
+
+#LogoRow {
+  width: 100%;
+}
+
+.footer-area {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-font-smoothing: antialiased;
+}
+
+.sp-bottom {
+  padding-bottom: 60px;
+}
+
+.Footer-business-info-item-name {
+  font-family: acumin-pro-condensed;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0em;
+  line-height: 1em;
+  text-transform: none;
+  color: #000;
+  padding-right: 10px;
+}
+
+.Footer-business {
+  display: inline-block;
+  font-family: Cormorant;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: .025em;
+  line-height: 1em;
+  text-transform: none;
+  color: #000;
+  text-align: center;
+  padding-right: 5px;
+}
+
+.call-top-action-wrap{
+  text-align: center;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.1);
+
+  p{
+    text-align: left;
+  }
+}
+
+.sp-y {
+  padding-bottom: 20px;
+}
+
+.widget-item {
+  margin-top: 38px;
+
+  .widget-title {
+    color: $brandColor;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: -1px;
+    margin-bottom: 22px;
+
+    @media #{$sm-device} {
+      margin-bottom: 15px;
+    }
+  }
+
+  .sqs-svg-icon--wrapper{
+    border-color: #fff;
+    margin: 0 4px;
+    width: 32px;
+    height: 32px;
+    border: 2px solid;
+    box-sizing: border-box;
+    border-radius: 60%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+
+    .fa{
+      fill: #fff;
+    }
+
+    a {
+      background-color: transparent;
+      color: inherit;
+      }
+  }
+
+  address {
+    line-height: 2;
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+}
+
+.widget-list {
+  li {
+    line-height: 2;
+
+    a {
+      color: $paragraph;
+      font-weight: 500;
+      transition: 0.2s;
+
+      &:hover {
+        color: $brandColor;
+        padding-left: 5px;
+      }
+    }
+  }
+}
+
+.Footer-nav{
+  padding: 40px 0;
+  text-align: center;
+  margin-right: -1em;
+  font-family: acumin-pro-condensed;
+  font-weight: 80;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: .15em;
+  line-height: 1em;
+  text-transform: uppercase;
+
+  a{
+    color: #e7b409;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.4;
+  }
+}
+}
+
+.Footer-nav-item{
+  padding-right: 1em;
+  display: inline-block;
+
+}
+
+// About Widget
+.about-widget {
+  // img {
+  //   max-width: 120px;
+  //   margin-bottom: 20px;
+  // }
+
+  text-align: center;
+}
+
+.copyright-txt {
+  margin-top: 25px;
+  font-weight: 500;
+
+  @media #{$sm-device} {
+    margin-top: 15px;
+  }
+}

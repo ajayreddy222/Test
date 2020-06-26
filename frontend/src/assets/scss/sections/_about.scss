@@ -1,0 +1,264 @@
+/*==========================
+08 About Style CSS
+==========================*/
+.about-content {
+  @media #{$xl-device} {
+    margin-left: 55px;
+    padding-right: 80px;
+    text-align: center;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid  #d61c29;
+    box-sizing: content-box;
+    display: block;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+    overflow: visible;
+  }
+
+  h6 {
+    margin-bottom: 13px;
+    text-align: center;
+    font-size: large;
+  }
+
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: #d61c29;
+  }
+
+  p {
+    color: $brandColor;
+    font-family: Cormorant Garamond;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 24px;
+    // letter-spacing: .01em;
+    line-height: 1.1em;
+    text-transform: none;
+  }
+
+  .about-since {
+    color: #484848;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1;
+    position: relative;
+    padding-right: 20px;
+    margin-bottom: 30px;
+
+    @media #{$sm-device} {
+      margin-bottom: 20px;
+    }
+
+    &:after {
+      background-color: #b4b4b4;
+      content: '';
+      position: absolute;
+      left: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 2px;
+      width: 110px;
+    }
+  }
+
+  .btn-about {
+    color: white;
+    background-color: #d61c29;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 25px 46px;
+    text-align: center;
+    letter-spacing: .06px;
+    margin-top: 15px;
+    text-transform: uppercase;
+
+    @media #{$sm-device} {
+      margin-top: 5px;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+  }
+
+  .btn1-about {
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.26px;
+    color: #fff;
+    background-color: #0b3932;
+    border-color: #0b3932;
+    padding: 13px 26px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    @media #{$sm-device} {
+      margin-top: 5px;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &--2{
+    @media #{$xl-device} {
+      margin-left: 0;
+      padding-right: 40px;
+    }
+  }
+}
+
+.about-thumb {
+  overflow: hidden;
+
+  @media #{$sm-device} {
+    margin-bottom: 35px;
+  }
+
+  img {
+    width: 100%;
+    transition: 0.4s;
+  }
+
+  &--2{
+    margin-right: -250px;
+  }
+}
+
+
+/*==========================
+8.1  Home One About Style
+==========================*/
+.about-area-wrapper{
+  margin: 10px;
+
+  .about-content {
+    p {
+      font-family: corundum-text;
+      text-align: center;
+      font-weight: 450;
+      font-style: normal;
+      font-size: 20px;
+      letter-spacing: .01em;
+      line-height: 1.67em;
+      text-transform: none;
+      color: #000;
+    }
+
+    a {
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: rgba(7,3,4,.3);
+    }
+  }
+
+  hr {
+    border-top: 1px solid red;
+    width: 100%;
+    margin: auto;
+
+    &.divider {
+      border-top: 1px solid red;
+      width: 100%;
+      margin: auto;
+    }
+  }
+}
+
+
+/*========================================
+8.2 Home 2 About Style
+==========================================*/
+.home-two-about-area{
+  background-color: $offWhite;
+  background-position: center right;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+
+  @media #{$lg-device, $xlmax-device} {
+    background-size: 1600px auto;
+  }
+
+  @media #{$sm-device, $md-device} {
+    background-image: none !important;
+  }
+
+  .about-content{
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    @media #{$md-device} {
+      padding-top: 40px;
+      padding-bottom: 90px;
+    }
+
+    @media #{$sm-device} {
+      padding-bottom: 60px;
+      padding-top: 0;
+    }
+
+    p {
+      color: $brandColor;
+      font-family: Cormorant Garamond;
+      font-weight: 600;
+      font-style: italic;
+      font-size: 24px;
+      // letter-spacing: .01em;
+      line-height: 1.1em;
+      text-transform: none;
+    }
+  }
+}
+
+.video-button-thumb{
+  position: relative;
+
+  &:after{
+    content: '';
+    background-color: $brandColor;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .btn-play{
+    border-radius: 50%;
+    background-color: $white;
+    color: $brandColor;
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+
+    &:hover{
+      background-color: $brandColor;
+      color: $white;
+    }
+
+    i{
+      padding-left: 5px;
+    }
+  }
+}

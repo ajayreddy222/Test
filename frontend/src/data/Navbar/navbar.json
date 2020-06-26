@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "title": "ABOUT A-KEEP",
+    "link": "/about",
+    "megaMenu": false,
+    "subMenu": [
+      {
+        "id": 1.1,
+        "title": "OUR STORY",
+        "link": "/our-story"
+      },
+      {
+        "id": 1.2,
+        "title": "OUR MISSION, VISION AND VALUES",
+        "link": "/our-mission" 
+      },
+      {
+        "id": 1.3,
+        "title": "OUR HISTORY",
+        "link": "/our-history"
+      },
+      {
+        "id": 1.4,
+        "title": "OUR PEOPLE",
+        "link": "/our-people"
+      },
+      {
+        "id": 1.5,
+        "title": "CONTACT US",
+        "link": "/contact"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "WHAT WE DO",
+    "link": "/our-work",
+    "megaMenu": false,
+    "subMenu": [
+      {
+        "id": 2.1,
+        "title": "OUR WORK",
+        "link": "/our-work"
+      },
+      {
+        "id": 2.2,
+        "title": "THE NEED",
+        "link": "/the-need"
+      },
+      {
+        "id": 2.3,
+        "title": "OUR APPROACH",
+        "link": "/our-approach"
+      },
+      {
+        "id": 2.4,
+        "title": "OUR PROGRAMS",
+        "link": "/our-programs"
+      },
+      {
+        "id": 2.5,
+        "title": "OUR SERVICES",
+        "link": "/ourservices"
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "title": "GET INVOLVED",
+    "link": "/get-involved",
+    "megaMenu": false,
+    "subMenu": [
+      {
+        "id": 3.1,
+        "title": "JOIN US",
+        "link": "/about"
+      },
+      {
+        "id": 3.2,
+        "title": "VOLUNTEER",
+        "link": "/volunteer"
+      },
+      {
+        "id": 3.3,
+        "title": "TEACH WITH US",
+        "link": "/teach-with-us"
+      },
+      {
+        "id": 3.4,
+        "title": "PARTNER WITH US",
+        "link": "/partner-with-us"
+      },
+      {
+        "id": 3.5,
+        "title": "SURVEY",
+        "link": "/survey"
+      }
+    ]
+  },
+
+  {
+    "id": 4,
+    "title": "INSIGHTS",
+    "megaMenu": false,
+    "subMenu": [
+      {
+        "title": "CORONAVIRUS (COVID-19) RESOURCES",
+        "link": "/Covid19Resources"
+      },
+      {
+        "title": "EVENTS",
+        "link": "/events"
+      },
+      {
+        "title": "Culture Shock! Journal",
+        "link" : "/Culture"
+      },
+      {
+        "title": "PRESSROOM",
+        "link": "/Press"
+      },
+      {
+        "title": "RESOURCES",
+        "link": "/Resources"
+      }
+     
+    ]
+  },
+
+  {
+    "id": 5,
+    "title": "K-GAME",
+    "megaMenu": false,
+    "subMenu": false
+  } 
+]

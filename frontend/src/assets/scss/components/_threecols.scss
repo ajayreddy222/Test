@@ -1,0 +1,42 @@
+.imgrow1 {
+    display: flex;
+    flex-direction: row;
+    
+
+    .imgrow2 {
+        display: flex;
+        flex-direction: row;
+        align-self: left;
+    }
+}
+
+.col1 {
+    padding: 15px;
+    width: 100%;
+    
+}
+
+.p {
+    text-align: center;
+    font-size: large;
+    color : black;
+    
+}
+
+.h3 {
+    text-align: center;
+    font-size: medium;
+    padding-top: 20px;
+}
+
+.h2{
+    color: black;
+}
+
+.about-thumb3{
+    height: 50px;
+}
+
+.about-thumb3 {
+    height: 600px;
+}

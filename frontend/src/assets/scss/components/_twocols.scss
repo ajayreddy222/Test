@@ -1,0 +1,34 @@
+.twocols {
+    color: black;
+    text-align: left;
+}
+
+.twocolspara {
+    text-align: left;
+}
+
+.buttontwocols {
+    color: rgb(116, 59, 21);
+    font-size: large;
+
+    &:hover {
+        color: goldenrod;
+    }
+}
+
+.divider{
+     margin-top: 15px;
+     color: red;
+}
+
+.divider_right{
+    margin-top: 15px;
+    color: red;
+    align-self: center;
+}
+
+#col1 {
+    width: 70%;
+    margin-right: 50px;
+
+}

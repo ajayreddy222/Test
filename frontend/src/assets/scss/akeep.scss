@@ -1,0 +1,102 @@
+
+// sometimes you see bold, red, header text. here it is.
+.red-header {
+	color: #d41c28;
+	text-align: left;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 35px;
+	letter-spacing: .02em;
+	line-height: 1em;
+	text-transform: none;;
+}
+
+// standard AKEEP button
+.btn {
+	color: white;
+	background-color: #d61c28;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 13px 23px;
+	text-align: center;
+	margin-top: 15px;
+ 
+	@media #{$sm-device} {
+	  margin-top: 5px;
+	}
+	&:hover {
+		opacity: 0.8;
+	}
+ 
+	&-padded {
+		padding: 25px 45px;
+	}
+
+	&-green {
+		
+		background-color: #0b3932;
+		color: white;
+		font-size: 15px;
+		font-weight: 500;
+		padding: 13px 23px;
+		text-align: center;
+		margin-top: 15px;
+	}
+}
+
+/*----------------------
+Container
+-----------------------*/
+.container {
+	@media screen and (min-width: 1200px) {
+	  max-width: 1400px;
+	  
+	}
+ 
+	&-fluid {
+	  padding: 0 100px;
+ 
+	  @media #{$lg-device} {
+		 padding: 0 15px;
+	  }
+ 
+	  @media #{$md-device, $sm-device} {
+		 padding: 0 30px;
+	  }
+ 
+	  @media #{$xxs-device} {
+		 padding: 0px;
+	  }
+	}
+ 
+	/// an inner container that provides some extra margins.
+	&-inner {
+	  padding: 0 100px;
+ 
+	  &-xs {
+		 padding: 0 50px;
+	  }
+ 
+	  &-sm {
+		 padding: 0 100px;
+	  }
+ 
+	  &-md {
+		 padding: 0 150px;
+	  }
+ 
+	  &-lg {
+		 padding: 0 200px;
+	  }
+	}
+ }
+ 
+ .row {
+	display: flex;
+ }
+ 
+ .col {
+	flex: 1;
+	padding: 1em;
+ }

@@ -1,0 +1,61 @@
+h5 {
+    text-align: center;
+    padding: 15px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-family: corundum-text;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: .01em;
+    line-height: 1.67em;
+}
+
+.btn-announce{
+    background-color:#0b3932;
+    padding: 13px 26px;
+    font-family: acumin-pro-condensed;
+    align-content: center;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.26px;
+    color: #fff;
+    margin-left: 50px;
+    margin-right: 100px;
+
+    &:hover{
+        background-color: lighten($color: #0b3932, $amount: 10);;
+        color: white;
+    }
+    
+}
+
+.btn-Press{
+    background-color:white;
+    padding: 13px 26px;
+    font-family: acumin-pro-condensed;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    
+    letter-spacing: 1.26px;
+    color:black;
+    margin-left: 50px;
+    margin-right: 100px;
+    border-color: black;
+    border: solid;
+
+    &:hover{
+        background-color: lighten($color: #0b3932, $amount: 10);;
+        color: white;
+    }
+    
+}
+
+
+.sectionh3 {
+    text-align: center;
+}
