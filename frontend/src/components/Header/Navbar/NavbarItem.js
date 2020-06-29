@@ -8,7 +8,10 @@ function NavbarItem(props) {
             <li key={item.id}
                 className={item.subMenu || item.megaMenu ? 'has-submenu' : ''}
             >
-                <Link to={`${process.env.PUBLIC_URL + item.link}`}>{item.title}</Link>
+                <Link to={`${process.env.PUBLIC_URL + item.link}`}>
+                    {item.faIcon && <i className={item.faIcon} aria-hidden="true" style={{ marginRight: 4 }} />}
+                    {item.title}
+                </Link>
                 {(() => {
                     if(item.subMenu){
                         return(
