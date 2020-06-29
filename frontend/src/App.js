@@ -77,6 +77,7 @@ import OnlineKSL from './pages/OnlineKSLClass';
 import AnnualKoreanCulturalExperience from './pages/AnnualCulture';
 import Resources from './pages/Resources'
 import Fileupload from './pages/Fileupload'
+import SiteMap from "./pages/SiteMap";
 
  
 const routePath = (path) => (
@@ -162,6 +163,9 @@ const App = () => {
                     <Route exact path={routePath('/Press')}             component={Press}/>
                     <Route exact path={routePath('/Events')}             component={Event}/>
                     <Route exact path={routePath('/Resources')}             component={Resources}/>
+
+                    {/* SITE MAP */}
+                    <Route exact path={routePath('/site-map')} component={SiteMap} />
 
 
 

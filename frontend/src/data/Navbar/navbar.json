@@ -106,22 +106,27 @@
     "megaMenu": false,
     "subMenu": [
       {
+        "id": 4.1,
         "title": "CORONAVIRUS (COVID-19) RESOURCES",
         "link": "/Covid19Resources"
       },
       {
+        "id": 4.2,
         "title": "EVENTS",
         "link": "/events"
       },
       {
+        "id": 4.3,
         "title": "Culture Shock! Journal",
         "link" : "/Culture"
       },
       {
+        "id": 4.4,
         "title": "PRESSROOM",
         "link": "/Press"
       },
       {
+        "id": 4.5,
         "title": "RESOURCES",
         "link": "/Resources"
       }
@@ -131,8 +136,16 @@
 
   {
     "id": 5,
+    "title": "Site Map",
+    "link": "/site-map",
+    "megaMenu": false,
+    "subMenu": false
+  },
+
+  {
+    "id": 6,
     "title": "K-GAME",
     "megaMenu": false,
     "subMenu": false
-  } 
+  }
 ]

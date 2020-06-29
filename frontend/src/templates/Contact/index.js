@@ -78,10 +78,16 @@ const ContactPage = () => {
                         <div className="col-12 lg-12">
                             <div className="contact-form-area contact-method">
                                 <h3>Send us a Message</h3>
-                                <form>
+                                <form
+                                    id="contact-us-form"
+                                    action="mailto:join@akeep.org"
+                                    method="POST"
+                                    encType="text/plain"
+                                    name="contactUsForm"
+                                >
                                     <label>Interest<span class="required" aria-hidden="true">*</span> </label>
                                     <br/>
-                                        <select>
+                                        <select name="interest" form="contact-us-form">
                                             <option value="Partnerships">Partnerships</option>
                                             <option value="Volunteer Opportunities">Volunteer Opportunities</option>
                                             <option selected value="Press and Media">Press and Media</option>
