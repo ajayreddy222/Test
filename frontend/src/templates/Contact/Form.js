@@ -4,7 +4,7 @@ import FormInput from "../../components/UI/Input";
 const Form = () => {
     return (
         <div className="contact-form-wrap">
-            <form id="contact-form">
+            <div id="contact-form">
                 <div className="row">
                     <div className="col-md-6">
                         <FormInput
@@ -57,7 +57,7 @@ const Form = () => {
                         <div className="form-message"/>
                     </div>
                 </div>
-            </form>
+            </div>
         </div>
     );
 };
