@@ -136,15 +136,6 @@
 
   {
     "id": 5,
-    "title": "Site Map",
-    "link": "/site-map",
-    "faIcon": "fa fa-sitemap",
-    "megaMenu": false,
-    "subMenu": false
-  },
-
-  {
-    "id": 6,
     "title": "K-GAME",
     "megaMenu": false,
     "subMenu": false
