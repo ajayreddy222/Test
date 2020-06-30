@@ -1,7 +1,6 @@
 import React from 'react';
 import SlickSlider from '../UI/Slick'
 import SliderData from '../../data/Slider/insight'
-import {Link} from "react-router-dom";
 
 
 const NextArrow = ({className, onClick}) => {
@@ -41,24 +40,21 @@ const Slider = () => {
                         // Slider component jason
                         SliderData.map(item => (
                             <div key={item.id}>
-                               
-                                    <div className="container">
-                                        <div className="row">
-                                            <div className="col-xl-10">
-                                                    
-                                                  <div className="slider-item"
-                                     style={{backgroundImage: `url(${require('../../assets/img/corona/' + item.id + ".png")})`}}>
-                                                </div>
+                                <div className="container">
+                                    <div className="row">
+                                        <div class="col-xl-1"></div>
+                                        <div className="col-xl-10">
+                                            <div className="slider-item" style={{backgroundImage: `url(${require('../../assets/img/corona/' + item.id + ".png")})`}}>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
                         ))
                     }
                 </SlickSlider>
             </div>
         );
-    }
-;
+    };
 
 export default Slider;

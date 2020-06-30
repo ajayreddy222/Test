@@ -117,7 +117,7 @@
       },
       {
         "id": 4.3,
-        "title": "Culture Shock! Journal",
+        "title": "CULTURE SHOCK! JOURNAL",
         "link" : "/Culture"
       },
       {
@@ -129,21 +129,12 @@
         "id": 4.5,
         "title": "RESOURCES",
         "link": "/Resources"
-      }
-     
+      }    
     ]
   },
 
   {
     "id": 5,
-    "title": "Site Map",
-    "link": "/site-map",
-    "megaMenu": false,
-    "subMenu": false
-  },
-
-  {
-    "id": 6,
     "title": "K-GAME",
     "megaMenu": false,
     "subMenu": false

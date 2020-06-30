@@ -29,12 +29,12 @@ class Header extends Component{
                         </div>
 
                         <div className="col-lg-7 d-none d-lg-block">
-                            <div style= {{"width":"930px"}}className="navigation-area mt-lg-3">
+                            <div style= {{"width":"890px"}}className="navigation-area mt-lg-3">
                                 <Navbar />
                             </div>
                         </div>
 
-                        <div className="col-7 col-lg-3">
+                        <div className="col-7 col-lg-3" style={{"padding-right":"0px"}}>
                             <HeaderConfig logRegContentShow={this.props.logRegContentShow} mobileMenuShow={this.props.mobileMenuShow} />
                         </div>
                     </div>
