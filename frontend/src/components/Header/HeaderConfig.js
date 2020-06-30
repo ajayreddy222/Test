@@ -46,6 +46,7 @@ function HeaderConfig(props) {
 
         // html codes;
         <div className="header-action mt-lg-3 text-right">
+            <a href="/site-map"> <i className="fa fa-sitemap"/>Site Map</a>
             <a href="https://secure.squarespace.com/checkout/donate?donatePageId=5beef19f1ae6cfbc3ccd99e0">
                 <button className="btn-about">Donate</button>
             </a>
@@ -54,8 +55,5 @@ function HeaderConfig(props) {
         </div>
     );
 }
-
-
-
 
 export default HeaderConfig;

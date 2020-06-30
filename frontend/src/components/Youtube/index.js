@@ -1,48 +1,22 @@
 import React from 'react';
 
-const Youtube = ({title, subtitle, contents }) => {
-    return (
-      
-      <div>
-        
-        <hr className="divider"/>
-              
-        <div className="container">
-            <div className="row align-items-lg-center">
-        
-          <div className = "col">
-             <div className="col text-center">
-        
-             <div className = "title_point">
-           {title}
+const Youtube = ({title, contents }) => {
+  return (
+    <div className="Main" style={{"padding": "0px 100px"}}> 
+         <div className="Main-content">
+         <div className="row align-items-center">
+                <div className="col col-12 lg-12">
+                  <div className="about-content about-content-1">
+                    <hr></hr>
+                    <h2 style={{"textAlign":"Left"}}>{title}</h2>
+                    <p>{contents}</p>
+                    <iframe width="1350" height="690" src="https://www.youtube.com/embed/3AodW4fWukc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
               </div>
-              </div>
-              </div>
-
-
-        </div>
-        <div className = "subtitle_point" > {subtitle} </div>   
-
-        <div className = "body1">
-            <div className = "marginForLine">
-        {contents}
-   
-        </div>
-        </div>
-
-        <div className="col text-center">
-            <div className = "marginForLine">
-        <iframe width="800" height="400" src="https://www.youtube.com/embed/3AodW4fWukc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
-        </div>
-        </div>
-
-
-        </div>
-        </div>
-
-
-    );
+         </div>
+    </div>
+   )
 };
 
 export default Youtube;

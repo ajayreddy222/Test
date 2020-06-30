@@ -83,8 +83,9 @@
 
 // Index Action
 .header-action{
-  color: $white;
-  font-size: 22px;
+  color: $black;
+  font-size: 0.9375rem;
+  font-weight: 500;
 
   @media #{$lg-device, $sm-device} {
     font-size: 20px;
@@ -98,7 +99,7 @@
     letter-spacing: 1.62px;
     text-transform: uppercase;
     position: relative;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .btn-about {
@@ -107,11 +108,11 @@
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-weight: 500;
-    padding: 12px 18px;
-    margin: .618em .618em;
+    padding: 8px 8px;
+    // margin: .618em .618em;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 20px;
+    margin-left: 10px;
 
     @media #{$sm-device} {
       margin-top: 5px;
@@ -123,13 +124,12 @@
   }
 
   a{
-    color: $white;
-
-    &.tel-no{
-      @media #{$xs-device} {
-        display: none;
-      }
-    }
+    color: $black;
+    // &.tel-no{
+    //   @media #{$xs-device} {
+    //     display: none;
+    //   }
+    // }
   }
 
   // [class*='btn-']{

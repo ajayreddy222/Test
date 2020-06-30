@@ -1,8 +1,9 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import {Link} from "react-router-dom";
 import navbarData from "../data/Navbar/navbar";
+import CallToAction from "../components/CallToAction";
 
 const SiteMap = () => (
     <>
@@ -10,19 +11,14 @@ const SiteMap = () => (
         <div className='container'>
             <ul>
                 {navbarData.map((item) => {
-                    if (item.id === 5) {
+                    if (item.id === 6) {
                         return null;
                     }
 
                     return (
                         <div key={item.id} className="row">
                             <div className="col-4 col-lg-2 font-weight-bold h5">
-                                {item.link ?
-                                    <Link to={item.link} className="text-dark">
-                                        {item.title}
-                                    </Link> :
-                                    item.title
-                                }
+                                <a className="text-dark">{item.title}</a>
                             </div>
                             <ul className="col-8 col-lg-10">
                                 {item.subMenu && item.subMenu.map((menu) => (
@@ -41,6 +37,7 @@ const SiteMap = () => (
                 })}
             </ul>
         </div>
+        <CallToAction/>
         <Footer/>
     </>
 );

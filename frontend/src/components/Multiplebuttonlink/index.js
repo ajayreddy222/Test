@@ -4,95 +4,38 @@ const Multiplebuttonlink = ({ pic, subtitle, contents, btnlink, corona19link, re
   , contents1, advicelink, parentinglink, Mythbusterslink }) => {
   return (
 
-
-    <div>    <hr className="divider" />
-
-      <div className="container">
-        <div className="row align-items-lg-center">
-          {/* Left picture on the corona virus */}
-          <img src={pic} alt="check" />
-          <div className="col">
-            <div className="col text-left">
-
-              <div className="subtitle_point"> {subtitle} </div>
-
-              <div className="body1"> {contents}
-              </div>
-              {/* Corona19 to link */}
-
-              <div classNAme="row">
-                <a href={corona19link}>
-                  <button className="button1">- Coronavirus Disease 2019 (COVID-19)</button>
-                </a>
-              </div>
-
-
-
-              {/* resourcelink */}
-              <a href={resourcelink}>
-                <button className="button1">- Resources for the Community</button>
-              </a>
-
-
-              {/* Printer source link */}
-              <a href={printresourcelink}>
-                <button className="button1">- Print Resources</button>
-              </a>
-
-              <div classNAme="row">
-                {contents1}
-              </div>
-
-
-              {/* Advice link */}
-              <a href={advicelink}>
-                <button className="button1">- Advice for the Public</button>
-              </a>
-
-
-              {/* parenting link */}
-              <a href={parentinglink}>
-                <button className="button1">- Parenting in the time of COVID-19</button>
-              </a>
-
-              {/* {Mybather link} */}
-              <a href={Mythbusterslink}>
-                <button className="button1">- Coronavirus disease (COVID-19) advice for the public: Myth busters (click to link)</button>
-              </a>
-
-    
-
+    <div className="Main" style={{"padding": "0px 100px"}}>
+      <div className="Main-content">
+        <div className="row align-items-center">
+          <div className="col col-12 lg-12">
+            <div className="about-content about-content-1">
+              <hr></hr>
             </div>
           </div>
+
+          <div className="col col-3 lg-3">
+            <div className="about-content about-content-1">
+              <img src={pic} alt="check" />
+            </div>
+          </div>
+          <div className="col col-9 lg-9">
+            <h2 style={{"textAlign":"Left"}}>{subtitle}</h2>
+            <h3><a className="link link2" href="https://www.cdc.gov/"><strong>{contents}</strong></a></h3>
+            <ul>
+              <li><p><a className="link" href={corona19link}>Coronavirus Disease 2019 (COVID-19)</a></p></li>
+              <li><p><a className="link" href={resourcelink}>Resources for the Community</a></p></li>
+              <li><p><a className="link" href={printresourcelink}>Print Resources</a></p></li>
+            </ul>
+            <h3><a className="link link2" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019"><strong>{contents1}</strong></a></h3>
+            <ul>
+              <li><p><a className="link" href={advicelink}>Advice for the Public</a></p></li>
+              <li><p><a className="link" href={parentinglink}>Parenting in the time of COVID-19</a></p></li>
+              <li><p><a className="link" href={Mythbusterslink}>Coronavirus disease (COVID-19) advice for the public: Myth busters (Pictured below)</a></p></li>
+            </ul>
+          </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-        {/* Container text */}
       </div>
-
-
-
-
-
-
-
-
-
-
-      {/* Divder Section */}
     </div>
-
   )
-}
-
-
-
+};
 export default Multiplebuttonlink;
